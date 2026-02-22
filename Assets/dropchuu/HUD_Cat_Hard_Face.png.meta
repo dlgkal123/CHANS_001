@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: be6f7ebe3c87cb649a07bcfc20cc5835
+guid: d713e6485867d9a49ba5028b79ebd6bb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8215881038156454709
-    second: HUD_Cat_VeryHard_0
+      213: 4107395052924530096
+    second: HUD_Cat_VeryHard_Face_0
+  - first:
+      213: 2243744067837670192
+    second: HUD_Cat_VeryHard_Face_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +55,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 287, y: 0, z: 130, w: 0}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -126,23 +129,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HUD_Cat_VeryHard_0
+      name: HUD_Cat_VeryHard_Face_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 439
-        height: 302
+        y: 58
+        width: 51
+        height: 86
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bc421d3b9b35bfd80800000000000000
-      internalID: -8215881038156454709
+      spriteID: 0bd63c9e906600930800000000000000
+      internalID: 4107395052924530096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUD_Cat_VeryHard_Face_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 0
+        width: 118
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033ba528751632f10800000000000000
+      internalID: 2243744067837670192
       vertices: []
       indices: 
       edges: []
@@ -152,7 +177,7 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -161,7 +186,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      HUD_Cat_VeryHard_0: -8215881038156454709
+      HUD_Cat_VeryHard_Face_0: 4107395052924530096
+      HUD_Cat_VeryHard_Face_1: 2243744067837670192
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
